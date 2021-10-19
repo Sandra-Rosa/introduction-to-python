@@ -31,4 +31,6 @@ It is used for:
 - Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
 - Python can be treated in a procedural way, an object-oriented way or a functional way.
 
-
+  <p align="center">
+  <img width="600px" src="https://user-images.githubusercontent.com/84260242/137849465-31641064-3b18-4817-bfbd-9f606faa366b.png"/>
+  </p>
