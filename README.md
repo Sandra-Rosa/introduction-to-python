@@ -34,3 +34,18 @@ It is used for:
   <p align="center">
   <img width="600px" src="https://user-images.githubusercontent.com/84260242/137849465-31641064-3b18-4817-bfbd-9f606faa366b.png"/>
   </p>
+
+### Basic data types in python
+Text Type:	str
+
+Numeric Types:	int, float, complex
+
+Sequence Types:	list, tuple, range
+
+Mapping Type:	dict
+
+Set Types:	set, frozenset
+
+Boolean Type:	bool
+
+Binary Types:	bytes, bytearray, memoryview
