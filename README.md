@@ -177,3 +177,30 @@ An escape character is a backslash \ followed by the character you want to inser
 | translate() |	Returns a translated string |
 | upper() |	Converts a string into upper case |
 | zfill() |	Fills the string with a specified number of 0 values at the beginning |
+### Python Booleans
+Booleans represent one of two values: True or False.
+
+### Boolean Values
+In programming you often need to know if an expression is True or False.
+
+You can evaluate any expression in Python, and get one of two answers, True or False.
+
+When you compare two values, the expression is evaluated and Python returns the Boolean answer
+
+### Evaluate Values and Variables
+The bool() function allows you to evaluate any value, and give you True or False in return
+
+### Most Values are True
+Almost any value is evaluated to True if it has some sort of content.
+
+Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones.
+
+
+### Some Values are False
+In fact, there are not many values that evaluate to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False evaluates to False
+
+One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a __len__ function that returns 0 or False:
