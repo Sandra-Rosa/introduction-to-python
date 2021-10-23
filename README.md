@@ -425,3 +425,59 @@ Python has a set of built-in methods that you can use on lists.
 | remove() |	Removes the item with the specified value |
 | reverse() |	Reverses the order of the list |
 | sort() |	Sorts the list |
+## Tuple
+Tuples are used to store multiple items in a single variable.
+
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+### Tuple Items
+Tuple items are ordered, unchangeable, and allow duplicate values.
+
+Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
+
+### Ordered
+When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+
+### Unchangeable
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+
+### Allow Duplicates
+Since tuples are indexed, they can have items with the same value
+### Tuple Length
+To determine how many items a tuple has, use the len() function
+### Create Tuple With One Item
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+### Tuple Items - Data Types
+Tuple items can be of any data type
+### type()
+From Python's perspective, tuples are defined as objects with the data type 'tuple':
+
+<class 'tuple'>
+### The tuple() Constructor
+It is also possible to use the tuple() constructor to make a tuple.
+### Access Tuple Items
+You can access tuple items by referring to the index number, inside square brackets
+### Negative Indexing
+Negative indexing means start from the end.
+
+-1 refers to the last item, -2 refers to the second last item etc.
+### Range of Indexes
+You can specify a range of indexes by specifying where to start and where to end the range.
+
+When specifying a range, the return value will be a new tuple with the specified items.
+
+### Range of Negative Indexes
+Specify negative indexes if you want to start the search from the end of the tuple
+### Check if Item Exists
+To determine if a specified item is present in a tuple use the in keyword
+### Change Tuple Values
+Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+
+But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+### Add Items
+Since tuples are immutable, they do not have a build-in append() method, but there are other ways to add items to a tuple.
+
+1. Convert into a list: Just like the workaround for changing a tuple, you can convert it into a list, add your item(s), and convert it back into a tuple.
