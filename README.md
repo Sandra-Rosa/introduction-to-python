@@ -502,3 +502,14 @@ You can loop through the list items by using a while loop.
 Use the len() function to determine the length of the tuple, then start at 0 and loop your way through the tuple items by refering to their indexes.
 
 Remember to increase the index by 1 after each iteration.
+### Join Two Tuples
+To join two or more tuples you can use the + operator
+### Multiply Tuples
+If you want to multiply the content of a tuple a given number of times, you can use the * operator
+### Tuple Methods
+Python has two built-in methods that you can use on tuples.
+
+| Method |	Description |
+|--------|--------------|
+| count() |	Returns the number of times a specified value occurs in a tuple |
+| index() |	Searches the tuple for a specified value and returns the position of where it was found |
