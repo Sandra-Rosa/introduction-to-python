@@ -703,3 +703,37 @@ Python has a set of built-in methods that you can use on dictionaries.
 | setdefault() |	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value |
 | update() |	Updates the dictionary with the specified key-value pairs |
 | values() |	Returns a list of all the values in the dictionary |
+
+### Python Conditions and If statements
+Python supports the usual logical conditions from mathematics:
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+An "if statement" is written by using the if keyword.
+
+### Indentation
+Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
+
+### Elif
+The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+### Else
+The else keyword catches anything which isn't caught by the preceding conditions.
+### Short Hand If
+If you have only one statement to execute, you can put it on the same line as the if statement
+### Short Hand If ... Else
+If you have only one statement to execute, one for if, and one for else, you can put it all on the same line
+This technique is known as Ternary Operators, or Conditional Expressions.
+### And
+The and keyword is a logical operator, and is used to combine conditional statements
+### Or
+The or keyword is a logical operator, and is used to combine conditional statements
+### Nested If
+You can have if statements inside if statements, this is called nested if statements.
+### The pass Statement
+if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
