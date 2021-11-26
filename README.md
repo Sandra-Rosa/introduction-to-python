@@ -829,3 +829,17 @@ The developer should be very careful with recursion as it can be quite easy to s
 In this example, tri_recursion() is a function that we have defined to call itself ("recurse"). We use the k variable as the data, which decrements (-1) every time we recurse. The recursion ends when the condition is not greater than 0 (i.e. when it is 0).
 
 To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.
+
+
+## Python Lambda
+
+A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments, but can only have one expression.
+
+Lambda functions can take any number of arguments
+
+### Why Use Lambda Functions?
+The power of lambda is better shown when you use them as an anonymous function inside another function.
+
+Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number
